@@ -29,3 +29,8 @@ CUDA_VISIBLE_DEVICES=2 python3 synthesize.py --source /data/Dataset/preprocessed
 python object_metrics.py --ref_wav_dir /data/result/LTS100_GT --synth_wav_dir /data/result/LTS100_syn/
 ```
 
+## Audio Samples
+
+We compare 20 samples and upload the generated audios to the directory _./Show20Samples_
+
+
