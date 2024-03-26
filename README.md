@@ -2,9 +2,6 @@
 
 We refer to this repo:  [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS.git).
 
-## Audio samples
-We put all the audio samples under the "Show20Samples" folder， Please check there.
-
 ## Pretrain on LTS
 ```python
 CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset LTS
