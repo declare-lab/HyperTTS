@@ -24,7 +24,7 @@ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset VCTK --restore_step 600000
 CUDA_VISIBLE_DEVICES=2 python3 synthesize.py --source /data/Dataset/preprocessed_data/VCTK_16k/val_unsup.txt --restore_step 900000 --mode batch --dataset VCTK
 ```
 
-## Get object metrics
+## Get objective metrics
 
 ```python
 python object_metrics.py --ref_wav_dir /data/result/LTS100_GT --synth_wav_dir /data/result/LTS100_syn/
