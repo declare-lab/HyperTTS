@@ -6,6 +6,10 @@ Neural speech synthesis, or text-to-speech (TTS), aims to transform a signal fro
 
 _Figure: Comparison of our approach against baselines: Fine-tuning tunes the backbone model parameters on the adaptation dataset. AdapterTTS inserts learnable modules into the backbone. HyperTTS (ours) converts the static adapter modules to dynamic by speaker-conditional sampling using a (learnable) hypernetwork. Both AdapterTTS and HyperTTS keep the backbone model parameters frozen and thus parameter-efficient_
 
+## Architecture
+![Architecture](https://github.com/declare-lab/HyperTTS/assets/32847115/e096e0a5-edee-4656-991e-b36966f050b3)
+_Figure: An overview of the HYPERTTS. SE and LE denote speaker embedding and layer embedding._
+
 ## Pretrain on LTS
 ```python
 CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset LTS
