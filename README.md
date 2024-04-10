@@ -33,8 +33,8 @@ python object_metrics.py --ref_wav_dir /data/result/LTS100_GT --synth_wav_dir /d
 ## Audio Samples
 
 We compare 20 samples and upload the generated audio files to the directory _./Show20Samples_
+We refer to this repo:  [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS.git)
 
-We refer to this repo:  [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS.git).
 
 ## Citation
 
