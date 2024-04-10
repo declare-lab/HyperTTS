@@ -23,7 +23,6 @@ from evaluate import evaluate
 
 torch.backends.cudnn.benchmark = True
 
-
 def train(rank, args, configs, batch_size, num_gpus):
     preprocess_config, model_config, train_config = configs
     if num_gpus > 1:
