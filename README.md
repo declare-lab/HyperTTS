@@ -2,8 +2,7 @@
 
 Neural speech synthesis, or text-to-speech (TTS), aims to transform a signal from the text domain to the speech domain. While developing TTS architectures that train and test on the same set of speakers has seen significant improvements, out-of-domain speaker performance still faces enormous limitations. Domain adaptation on a new set of speakers can be achieved by fine-tuning the whole model for each new domain, thus making it parameter-inefficient. This problem can be solved by Adapters that provide a parameter-efficient alternative to domain adaptation. Although famous in NLP, speech synthesis has not seen much improvement from Adapters. In this work, we present HyperTTS, which comprises a small learnable network, ``hypernetwork", that generates parameters of the Adapter blocks, allowing us to condition Adapters on speaker representations and making them dynamic. Extensive evaluations of two domain adaptation settings demonstrate its effectiveness in achieving state-of-the-art performance in the parameter-efficient regime. We also compare different variants of HyperTTS, comparing them with baselines in different studies. Promising results on the dynamic adaptation of adapter parameters using hypernetworks open up new avenues for domain-generic multi-speaker TTS systems.
 
-![image](https://github.com/declare-lab/HyperTTS/assets/35062414/6f0ee37b-6f11-4397-a3c9-36bcf3a8042b)
-
+<img src="https://github.com/declare-lab/HyperTTS/assets/32847115/bd793edc-19d3-4547-8425-068e85538b3b" alt="intro-fig" width="500" height="400">
 
 
 ## Pretrain on LTS
