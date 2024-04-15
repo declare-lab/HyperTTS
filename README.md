@@ -10,6 +10,14 @@ _Figure: Comparison of our approach against baselines: Fine-tuning tunes the bac
 ![Architecture](https://github.com/declare-lab/HyperTTS/assets/32847115/e096e0a5-edee-4656-991e-b36966f050b3)
 _Figure: An overview of the HYPERTTS. SE and LE denote speaker embedding and layer embedding._
 
+## We provide checkpoint here:
+Pretrained on LTS100 checkpoint: [600000.pth.tar](https://drive.google.com/file/d/1Arg3P37rrnaRzCN83UUKltfvZFb4h87W/view?usp=sharing)
+
+<!-- 这是一段被注释掉的文字 
+Finetuned hyperTTS_all on VCTK:
+Finetuned hyperTTS_all on LTS2:
+-->
+
 ## Pretrain on LTS
 ```python
 CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset LTS
